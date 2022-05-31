@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "1080595504569",
+    "project_id": "wssup-covid-19",
+    "storage_bucket": "wssup-covid-19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080595504569:android:f9b1d6297faf10b5106a68",
+        "android_client_info": {
+          "package_name": "com.example.dell.laptop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080595504569-lt0chhkl44l36anci501jefdg61ti9ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBseNiEP9sOQaKPb42PjBu6fs99l1gf3y8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080595504569-lt0chhkl44l36anci501jefdg61ti9ck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080595504569:android:73473942f4c527c3106a68",
+        "android_client_info": {
+          "package_name": "com.example.last_one"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080595504569-lt0chhkl44l36anci501jefdg61ti9ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBseNiEP9sOQaKPb42PjBu6fs99l1gf3y8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080595504569-lt0chhkl44l36anci501jefdg61ti9ck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080595504569:android:603a481fc6b1effb106a68",
+        "android_client_info": {
+          "package_name": "com.example.warmup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080595504569-lt0chhkl44l36anci501jefdg61ti9ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBseNiEP9sOQaKPb42PjBu6fs99l1gf3y8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080595504569-lt0chhkl44l36anci501jefdg61ti9ck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080595504569:android:c1ec93d0bc960279106a68",
+        "android_client_info": {
+          "package_name": "com.example.wssup_covid19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080595504569-lt0chhkl44l36anci501jefdg61ti9ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBseNiEP9sOQaKPb42PjBu6fs99l1gf3y8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080595504569-lt0chhkl44l36anci501jefdg61ti9ck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
