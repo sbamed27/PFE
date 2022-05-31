@@ -31,12 +31,12 @@ class _ForumState extends State<Questions> {
         .doc(idQst)
         .get()
         .then((value) {
-          print(idQst+" "+List.from(value.get('likers')).first);
+      print(idQst + " " + List.from(value.get('likers')).first);
       List.from(value.get('likers')).forEach((element) {
         if (element.toString() == idUser) flag = true;
         //likerslist.add(element.toString());
       });
-    });/*
+    }); /*
     likerslist.forEach((element) {
       if (element.toString() == idUser) flag = true;
     });*/
@@ -113,7 +113,7 @@ class _ForumState extends State<Questions> {
               TextButton(
                 onPressed: () {
                   FirebaseFirestore.instance
-                      .collection('posts')
+                      .collection('Questions')
                       .doc(idQuest!)
                       .update(
                     {
@@ -166,8 +166,6 @@ class _ForumState extends State<Questions> {
           children: [
             Flexible(
               flex: 1,
-              //width: MediaQuery.of(context).size.width,
-              //height: 150,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [

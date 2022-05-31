@@ -42,20 +42,6 @@ class _StatsState extends State<Stats> {
     } catch (e) {
       return e.toString();
     }
-
-    //String? name = placeMark.name;
-    // String subLocality = placeMark.subLocality;
-    ////String? locality = placeMark.locality;
-    ////String? administrativeArea = placeMark.administrativeArea;
-    // String subAdministrativeArea = placeMark.administrativeArea;
-    ////String? postalCode = placeMark.postalCode;
-
-    // String subThoroughfare = placeMark.subThoroughfare;
-    ////String? thoroughfare = placeMark.thoroughfare;
-
-    //print("$name, $country");
-    ////print("$name, $thoroughfare, $locality, $administrativeArea, $postalCode, $country");
-    ////return "$name, $thoroughfare, $locality, $administrativeArea, $postalCode, $country";
   }
 
   Future<void> getData(String country) async {
@@ -94,7 +80,10 @@ class _StatsState extends State<Stats> {
           children: [
             Expanded(
               flex: 1,
-              child: BarChart(series,animate: true,),
+              child: BarChart(
+                series,
+                animate: true,
+              ),
             ),
             Expanded(
               flex: 2,
@@ -104,7 +93,8 @@ class _StatsState extends State<Stats> {
                   onTap: (pos, ll) {
                     mlat = ll.latitude;
                     mlng = ll.longitude;
-                    _getLocationAddress(ll.latitude, ll.longitude).then((value) {
+                    _getLocationAddress(ll.latitude, ll.longitude)
+                        .then((value) {
                       blad = value.toString();
                       getData(blad!).then((value) {
                         setState(() {
@@ -125,10 +115,7 @@ class _StatsState extends State<Stats> {
                       'accessToken':
                           'pk.eyJ1IjoiYW1pbm92MzEiLCJhIjoiY2wweHR3am9uMTdnazNpa2J4ZjAzcWd5aiJ9.VSf81zt3xC4O_5smvvAc8w',
                       'id': 'mapbox.country-boundaries-v1'
-                    }, /*
-                    attributionBuilder: (_) {
-                      return const Text("© OpenStreetMap contributors");
-                    },*/
+                    },
                   ),
                   MarkerLayerOptions(
                     markers: [
